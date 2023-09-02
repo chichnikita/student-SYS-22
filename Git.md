@@ -14,13 +14,13 @@
 
 2. Галочка проставлена, для создания README
 
-3. ![Screenshot_1](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_1.png)
+3.  <img src = "img/GIT/Screenshot_1.png" width = 100%>
 
-4. ![Screenshot_3](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_3.png)
+4. <img src = "img/GIT/Screenshot_3.png" width = 100%>
 
-5. ![Screenshot_2](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_2.png)
+5.   <img src = "img/GIT/Screenshot_2.png" width = 100%>
 
-6. ![Screenshot_4](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_4.png)
+6.   <img src = "img/GIT/Screenshot_4.png" width = 100%>
 
    ### Задание 2
    
@@ -28,20 +28,20 @@
    
    
 
-![Screenshot_6](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_6.png)
+  <img src = "img/GIT/Screenshot_6.png" width = 100%>
 
-![Screenshot_5](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_5.png)
+  <img src = "img/GIT/Screenshot_5.png" width = 100%>
 
-![Screenshot_7](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_7.png)
+  <img src = "img/GIT/Screenshot_7.png" width = 100%>
 
 ### Задание 3
 
 `Выполнение заданий показывать скриншотами скриншотами : `
 
-![Screenshot_8](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_8.png)
+ <img src = "img/GIT/Screenshot_8.png" width = 100%>
 
-![Screenshot_9](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_9.png)
+  <img src = "img/GIT/Screenshot_9.png" width = 100%>
 
-[Network graph](https://github.com/chichnikita/student-SYS-22/network)
+[Network graph](https://github.com/chichnikita/student-SYS-22/network)  
 
-![Screenshot_10](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_10.png)
+ <img src = "img/GIT/Screenshot_10.png" width = 100%>
