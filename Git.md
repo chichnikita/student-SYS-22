@@ -20,7 +20,21 @@
 
 5. ![Screenshot_2](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_2.png)
 
-6. 
+6. ![Screenshot_4](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_4.png)
 
+   ### Задание 2
    
+   `Выполнение заданий показывать скриншотами скриншотами : `
+   
+   
+
+![Screenshot_6](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_6.png)
+
+![Screenshot_5](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_5.png)
+
+![Screenshot_7](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_7.png)
+
+### Задание 3
+
+`Выполнение заданий показывать скриншотами скриншотами : `
 
