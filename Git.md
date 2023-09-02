@@ -38,3 +38,10 @@
 
 `Выполнение заданий показывать скриншотами скриншотами : `
 
+![Screenshot_8](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_8.png)
+
+![Screenshot_9](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_9.png)
+
+[Network graph](https://github.com/chichnikita/student-SYS-22/network)
+
+![Screenshot_10](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_10.png)
