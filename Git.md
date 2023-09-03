@@ -27,9 +27,9 @@
 >>>>>>> dev
 
    ### Задание 2
-   
+
    `Выполнение заданий показывать скриншотами скриншотами : `
-   
+
    
 
 <<<<<<< HEAD
@@ -49,7 +49,5 @@
 
 [Network graph](https://github.com/chichnikita/student-SYS-22/network)  
 
- <img src = "img/GIT/Screenshot_10.png" width = 100%>
+ <img src = "img/GIT/Screenshot_11.png" width = 100%>
 =======
-![Screenshot_6](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_6.png)
->>>>>>> dev
