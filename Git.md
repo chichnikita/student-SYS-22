@@ -20,7 +20,11 @@
 
 5.   <img src = "img/GIT/Screenshot_2.png" width = 100%>
 
+<<<<<<< HEAD
 6.   <img src = "img/GIT/Screenshot_4.png" width = 100%>
+=======
+6. ![Screenshot_4](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_4.png)
+>>>>>>> dev
 
    ### Задание 2
    
@@ -28,6 +32,7 @@
    
    
 
+<<<<<<< HEAD
   <img src = "img/GIT/Screenshot_6.png" width = 100%>
 
   <img src = "img/GIT/Screenshot_5.png" width = 100%>
@@ -45,3 +50,6 @@
 [Network graph](https://github.com/chichnikita/student-SYS-22/network)  
 
  <img src = "img/GIT/Screenshot_10.png" width = 100%>
+=======
+![Screenshot_6](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_6.png)
+>>>>>>> dev
