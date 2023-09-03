@@ -16,7 +16,7 @@
 
 ### Ответ 1
 
-<img src = "img/GITlab/1_1.png" width = 100%>
+<img src = "img/GitLab/1_1.png" width = 100%>
 
 --------
 
@@ -27,7 +27,7 @@
 
 ### Ответ 2
 
-<img src = "img/GITlab/2_1.png" width = 100%>
+<img src = "img/GitLab/2_1.png" width = 100%>
 
 ```yml
 stages:
@@ -49,7 +49,7 @@ build:
 
 ##### Pipeline с sonarqube проверкой
 
-<img src = "img/GITlab/2_2.png" width = 100%>
+<img src = "img/GitLab/2_2.png" width = 100%>
 
 ```yml
 
