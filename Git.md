@@ -10,20 +10,27 @@
 
 `Выполнение заданий показывать скриншотами скриншотами : `
 
-1. Аккаунт создан
+Аккаунт создан
 
-2. Галочка проставлена, для создания README
+Галочка проставлена, для создания README
 
-3.  <img src = "img/GIT/Screenshot_1.png" width = 100%>
+Склонировал репозиторий
 
-4. <img src = "img/GIT/Screenshot_3.png" width = 100%>
+<img src = "img/GIT/Screenshot_1.png" width = 100%>
 
-5.   <img src = "img/GIT/Screenshot_2.png" width = 100%>
+Произвёл первоначальную настройку Git, указав своё настоящее имя и email
+
+<img src = "img/GIT/Screenshot_3.png" width = 100%>
+
+<img src = "img/GIT/Screenshot_2.png" width = 100%>
 
 <<<<<<< HEAD
-6.   <img src = "img/GIT/Screenshot_4.png" width = 100%>
+
+<img src = "img/GIT/Screenshot_4.png" width = 100%>
 =======
-6. ![Screenshot_4](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_4.png)
+
+6.   ![Screenshot_4](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_4.png)
+
 >>>>>>> dev
 
    ### Задание 2
