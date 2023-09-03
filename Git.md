@@ -22,16 +22,15 @@
 
 <img src = "img/GIT/Screenshot_3.png" width = 100%>
 
-<img src = "img/GIT/Screenshot_2.png" width = 100%>
+с 6 по 13 пункты :
 
-<<<<<<< HEAD
+<img src = "img/GIT/1_1.png" width = 100%>
 
-<img src = "img/GIT/Screenshot_4.png" width = 100%>
-=======
 
-6.   ![Screenshot_4](C:\Users\Admin\Desktop\GIT\student-SYS-22\img\GIT\Screenshot_4.png)
 
->>>>>>> dev
+
+
+[Ссылка на последний коммит](https://github.com/chichnikita/student-SYS-22/compare/1ec5a06ba0209f8b77fbbcb5f92279925f724c93...42e38c5e2e66994c54c8d3476384c38e9f85b590)
 
    ### Задание 2
 
