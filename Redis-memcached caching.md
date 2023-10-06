@@ -45,8 +45,9 @@
 ### Ответ 2
 <details>
   <summary>Ответ 2</summary>
-  тест
+  <img src = "img/Redis-memcached caching/1_1.png" width = 100%>
 </details>
+
 
 
 --------
@@ -61,8 +62,14 @@
 ### Ответ 3
 <details>
   <summary>Ответ 3</summary>
-   тест
-</details>
+    - Запустите memcached с указанием непривилегированного пользователя:
+   <img src = "img/Redis-memcached caching/2_1.png" width = 100%>
+    - Установливаем ключи с TTL в 5 секунд:
+   <img src = "img/Redis-memcached caching/2_2.png" width = 100%>
+    - Проверяем, что ключи были удалены:
+   <img src = "img/Redis-memcached caching/2_3.png" width = 100%>
+    </details>
+
 
 
 
@@ -77,11 +84,18 @@
 ### Ответ 4
 <details>
   <summary>Ответ 4</summary>
-   тест
+   1)Установить Redis 
+      	sudo apt install redis-server
+   2)Запись данных в Redis:
+<img src = "img/Redis-memcached caching/3_1.png" width = 100%>
+3)Достаём все записанные ключи и значения:
+<img src = "img/Redis-memcached caching/3_2.png" width = 100%>
 </details>
 
---------
 
+
+
+--------
 
 
 
