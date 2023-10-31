@@ -69,7 +69,6 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
                                 -> Single-row index lookup on c using PRIMARY (customer_id=r.customer_id)  (cost=250e-6 rows=1) (actual time=195e-6..228e-6 rows=1 loops=642000)
                             -> Single-row covering index lookup on i using PRIMARY (inventory_id=r.inventory_id)  (cost=925e-6 rows=1) (actual time=149e-6..179e-6 rows=1 loops=642000)
 ```
-Узкие места там, где большое время выполнения и 642 тысячи строк анализируемых данных.
 При анализе выполнения запроса были выявлены узкие места, проявляющиеся в значительном времени выполнения и обработке большого количества строк данных, достигающего 642 тысяч.
 Основные проблемы возникали при сортировке данных по customer_id и f.title, а также при применении оконной агрегации и временных таблиц.
 
