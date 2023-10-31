@@ -70,7 +70,9 @@ where date(p.payment_date) = '2005-07-30' and p.payment_date = r.rental_date and
                             -> Single-row covering index lookup on i using PRIMARY (inventory_id=r.inventory_id)  (cost=925e-6 rows=1) (actual time=149e-6..179e-6 rows=1 loops=642000)
 ```
 Узкие места там, где большое время выполнения и 642 тысячи строк анализируемых данных.
-Вроде заиндексироваить надобно payment_date в payment.
+При анализе выполнения запроса были выявлены узкие места, проявляющиеся в значительном времени выполнения и обработке большого количества строк данных, достигающего 642 тысяч.
+Основные проблемы возникали при сортировке данных по customer_id и f.title, а также при применении оконной агрегации и временных таблиц.
+
 ```sql
 SELECT concat(c.last_name, ' ', c.first_name) AS customers, SUM(p.amount)
 FROM customer c
@@ -111,6 +113,9 @@ CREATE INDEX payday ON payment(payment_date);
                 -> Index lookup on r using idx_fk_customer_id (customer_id=c.customer_id)  (cost=6.69 rows=26.7) (actual time=0.0395..0.0484 rows=27.1 loops=284)
             -> Index lookup on p using payday (payment_date=r.rental_date), with index condition: (cast(p.payment_date as date) = '2005-07-30')  (cost=0.25 rows=1) (actual time=0.00287..0.0029 rows=0.0412 loops=7694)
 ```
+
+Для оптимизации запроса был внесен индекс на столбец payment_date в таблице payment, что значительно улучшило производительность запроса. 
+После внесения изменений запрос стал значительно быстрее, сократив время выполнения с нескольких секунд до миллисекунд. Теперь запрос работает более эффективно и оптимизированно.
 
 </details>
 
