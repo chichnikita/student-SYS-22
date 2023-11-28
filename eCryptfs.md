@@ -1,8 +1,8 @@
-# `Домашнее задание к занятию "Уязвимости и атаки на информационные системы"` - `Чичулин Никита SYS-22`
+# `Домашнее задание к занятию "Защита хоста"` - `Чичулин Никита SYS-22`
 
 
 
-1. [Описание домашнего задания к занятию «Уязвимости и атаки на информационные системы»](https://github.com/netology-code/sdb-homeworks/blob/main/13-01.md)
+1. [Описание домашнего задания к занятию «Защита хоста»](https://github.com/netology-code/sdb-homeworks/blob/main/13-02.md)
 
 ---
 
@@ -24,7 +24,15 @@
 <details>
   <summary>Ответ 1: </summary>
 
-<img src = "img/.png" width = 100%>
+- поставил пакет **eCryptfs**: `apt install ecryptfs-utils`
+- создал пользователя: `adduser cryptouser`
+- инициализировал **eCryptfs** для папки пользователя: `ecryptfs-migrate-home -u cryptouser`
+- ребутнул сервер: `reboot`
+- зашел из под `cryptouser`: `su cryptouser`
+- ввел команду: `ecryptfs-mount-private`
+
+Скриншот с тем, как видит эту директорию `cryptouser` и `root`
+<img src = "img/13_2.png" width = 100%>
 
 
 </details>
@@ -50,8 +58,36 @@
 <details>
    <summary> Ответ 2: </summary>
 
-UDP сканирование
-<img src = "img/.png" width = 100%>
+Застрял долго на команде `cryptsetup -y -v --type luks2 luksFormat`
+- На запрос нужно ответить `YES`, а не `yes`
+```
+Данные на /dev/sda6 будут перезаписаны без возможности восстановления.
+
+Are you sure? (Type 'yes' in capital letters): yes
+Операция прервана.
+
+Сбой команды, код -1 (некорректные или отсутствующие параметры).
+```
+```
+Данные на /dev/sda6 будут перезаписаны без возможности восстановления.
+
+Are you sure? (Type 'yes' in capital letters): YES
+Введите парольную фразу для /dev/sda6:
+Парольная фраза повторно:
+Существующая подпись раздела «gpt» (смещение: 512 байт) на устройстве /dev/sda6 будет затёрта.
+Существующая подпись раздела «gpt» (смещение: 98565632 байт) на устройстве /dev/sda6 будет затёрта.
+Существующая подпись раздела «PMBR» (смещение: 510 байт) на устройстве /dev/sda6 будет затёрта.
+Создан слот ключа 0.
+Команда выполнена успешно.
+```
+
+Для восстановления доступа к разделу после перезапуска вводим команды:
+```
+cryptsetup luksOpen /dev/sda6 crypto
+mount /dev/mapper/crypto /crypto/
+```
+<img src = "img/13_2_2.png" width = 100%>
+
 
 </details>
 
